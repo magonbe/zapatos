@@ -1,0 +1,14 @@
+
+Ciudad: <input type="text" ng-model="ciudad">
+
+
+  <select class="form-control" id="sel1" ng-model="pais">
+    <option ng-model="pais">Es</option>
+    <option ng-model="pais">Fr</option>
+    <option ng-model="pais">Uk</option>
+    <option ng-model="pais">de</option>
+    <option ng-model="pais">it</option>
+  </select>
+
+<button type="button" class="btn btn-primary" ng-click="meteo()">Temperatura ºC</button>
+<p>{{mitemperatura}}</p>
